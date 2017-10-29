@@ -1,6 +1,6 @@
 # Shades
 
-Dead simple way to create and manage custom objects and shaders and effects for threejs using webpack.
+Dead simple way to create and manage custom objects, shaders and effects for threejs using webpack.
 
 Contains:
 
