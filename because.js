@@ -11,14 +11,14 @@ let font = [
 ];
 
 module.exports = function () {
-  figlet.text( _.sample( phrase ), {
-  	font: _.sample( font )
-  }, function ( err, data ) {
-  	if ( err ) {
-  		console.log( 'Figlet broke.' );
-  		console.dir( err );
-  		return;
-  	}
-  	console.log( data );
-  } );
+	figlet.text( _.sample( phrase ), {
+		font: _.sample( font )
+	}, function ( err, data ) {
+		if ( err ) {
+			console.log( 'Figlet broke.' );
+			console.dir( err );
+			return;
+		}
+		console.log( data );
+	} );
 }
